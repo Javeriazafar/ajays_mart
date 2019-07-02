@@ -16,7 +16,7 @@ $item_title=$_SESSION['qty'];
  $item_finalprice= $_SESSION['cartp'];
  $sql = "INSERT INTO bill (cus_email,cus_name,cus_address,cus_tel,cus_city,cus_country,item_title,item_finalprice) VALUES ('$cus_email','$cus_name','$cus_address','$cus_tel','$cus_city','$cus_country','$item_title','$item_finalprice')";
 
- if( mysqli_query($conn, $sql)){$id=mysqli_insert_id($conn); ?> <script>alert("inserted")</script><?php }
+ if( mysqli_query($conn, $sql)){$id=mysqli_insert_id($conn); }
 $cid=mysqli_insert_id($conn);
 }
     
