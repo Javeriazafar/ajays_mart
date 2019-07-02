@@ -71,7 +71,7 @@ session_start();
 </a>
 </li>
 <li>
-<a href="index1.php">HOME
+<a href="index.php">HOME
 <span></span>
 <span></span>
 <span></span>

@@ -75,7 +75,7 @@ if(isset($_POST['action'])){
         break;
     }
 }else{
-    header('location: index1.php');
+    header('location: index.php');
 }
 
 
