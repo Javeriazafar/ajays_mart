@@ -48,7 +48,7 @@ if(isset($_POST['action'])){
         
       }
         else{
-            header('location: index1.php');
+            header('location: index.php');
         }
         
 ?>
